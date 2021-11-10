@@ -1,0 +1,64 @@
+body {
+background-color: #181a1b;	
+	
+	
+	
+	
+	
+	
+}
+
+sv5-loader {
+			text-align: center;
+			width: 100%;
+		    min-height: 370px;
+		    max-height: 430px;
+			background: url('https://sv5.voedingscentrum.nl/Content/images/schijf-los-animated.gif') center center no-repeat;
+		}
+
+		.sv5-framecontainer {
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+			text-align: left;
+		    min-height: 370px;
+		    max-height: 430px;
+			margin: 0 auto;
+		}
+
+
+		#sv5-iframe {
+			display: none;
+			width: 100%;
+            max-width: 614px !important;
+		}
+
+		@media screen and (max-width: 375px) {
+			.sv5-framecontainer {
+				margin: 10px auto;
+			}
+
+			#sv5-iframe {
+				width: 335px;
+			}
+		}
+
+		@media screen and (max-width: 360px) {
+			.sv5-framecontainer {
+				margin: 10px auto;
+			}
+
+			#sv5-iframe {
+				width: 320px;
+			}
+		}
+
+		@media screen and (max-width: 320px) {
+			.sv5-framecontainer {
+				margin: 10px auto;
+			}
+
+			#sv5-iframe {
+				width: 280px;
+			}
+		}
